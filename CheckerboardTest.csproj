@@ -7,10 +7,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>False</UseWindowsForms>
+    <StartupObject>Pat.App</StartupObject>
+    <ApplicationIcon>msoftware_standalone.ico</ApplicationIcon>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="msoftware_standalone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="msoftware_standalone.ico" />
   </ItemGroup>
 
   <ItemGroup>
