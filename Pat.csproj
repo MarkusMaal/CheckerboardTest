@@ -9,4 +9,12 @@
     <UseWindowsForms>False</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="msoftware_standalone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="msoftware_standalone.png" />
+  </ItemGroup>
+
 </Project>

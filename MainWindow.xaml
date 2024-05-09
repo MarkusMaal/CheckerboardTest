@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pat"
         mc:Ignorable="d"
-        Title="MainWindow" WindowState="Maximized" WindowStartupLocation="CenterScreen" Topmost="True" WindowStyle="None" ContentRendered="Window_ContentRendered" KeyDown="Window_KeyDown">
+        Title="Pattern tester" WindowState="Normal" WindowStartupLocation="CenterScreen" Topmost="True" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" Icon="/msoftware_standalone.png" Background="Magenta">
     <Grid >
         <Canvas x:Name="Canvas1"
-      Height="200" Width="200"/>
+      Height="200" Width="200" MouseDown="Canvas1_MouseDown"/>
 
     </Grid>
 </Window>
